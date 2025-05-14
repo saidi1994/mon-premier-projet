@@ -1,0 +1,60 @@
+body {
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 35px;
+    color: orangered;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    padding-top: 5px;
+    width: 30%;
+}
+
+.article {
+    background-color: dimgray;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+    width: auto;
+    justify-content: space-between;
+    overflow: hidden;
+    text-align: center;
+}
+
+img {
+    height: 380px;
+    width: 380px;
+    border-radius: 10%;
+
+}
+.personne{
+    width: 70%;
+    text-align: center;
+    border: 5px solid white;
+    justify-content: center;
+}
+
+thead {
+    color: orangered;
+    border: 1.5px solid white;
+
+}
+
+th, td {
+    border: 1.5px solid white;
+}
+
+
+
+.eleve{
+    color: aqua;
+    list-style: circle;
+    font-size: x-large;
+}

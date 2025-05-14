@@ -1,0 +1,76 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: aliceblue
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  
+    gap: 20px;
+    padding: 20px;
+   
+}
+.card {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 50px gray ;
+    border-radius: 20px;
+}
+
+h2{
+    color: coral;
+}
+img{
+height: auto;
+width: 100%;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+i{
+gap:60%;
+padding: 10;     
+}
+i .paper-plane{
+    color: blue;
+}
+form{
+    margin: 10px; ;
+}
+.pa{
+    padding: 10px;
+}
+.icone {
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+}
+.icone i{
+    font-size: 30px;
+    color: orangered;
+}
+form {
+    display: flex;
+    justify-content:space-between;
+}
+form input{
+    width: 90%;
+    padding: 10px;
+    background-color: red;
+    border-radius: 15px;
+    color: khaki;
+    font-size: 20px;
+}
+
+form input::placeholder {
+    color: #04ff00;
+    font-size: 20px;
+}
+ 
+form i{
+    padding: 10px;
+    font-size:25px;
+    color: cyan;
+}

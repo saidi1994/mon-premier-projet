@@ -1,0 +1,18 @@
+body{
+    width: 90%;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+    background-color: brown;
+
+}
+img{
+    height: 380px;
+    width: 380;
+
+}
